@@ -1,4 +1,6 @@
 Commandes terminal de base
+	-Nouveau terminal
+		Ctrl+Alt+T
 	-Chercher dans le Manuel
 		man FONCTION_RECHERCHEE
 	-Se deplacer
@@ -30,6 +32,9 @@ Commandes terminal de base
 		alias NOM_DE_L'ALIAS='COMMANDE_DE_L'ALIAS'
 
 	-Changer les entrees/sorties standard
+		FONCTION ENTREE_STANDARD > NOUVELLE_SORTIE_STANDARD ##Par exemple le nom d'un fichier
 		
+	-Faire sortir le resultat d'une fonction1 en entree dans une autre (fonction2)
+		FONCTION1 | FONCTION2
 
-
+		
