@@ -1,0 +1,35 @@
+Commandes terminal de base
+	-Chercher dans le Manuel
+		man FONCTION_RECHERCHEE
+	-Se deplacer
+		-Aller au dossier parent:
+			cd ..
+		-Le dossier actuel:
+			./
+		-Aller a la racine:
+			cd /
+		-Aller a Home:
+			cd ~/ 
+	-Manipuler des fichiers:
+		-Nouveau fichier:
+			touch NOM_DU_NOUVEAU_FICHIER
+		-Nouveau dossier:
+			mkdir NOM_DU_NOUVEAU_DOSSIER
+		-Deplacer:
+			mv FICHIER_QU'ON_VEUT_DEPLACER DESTINATION
+		-Copier:
+			cp FICHIER_QU'ON_VEUT_COPIER DESTINATION
+		-Modifier la taille d'un fichier:
+			truncate -s NOUVELLE_TAILLE FICHIER_A_MODIFIER
+		-Modifier le contenu d'un fichier:
+			-AJouter une ligne de texte
+				echo "LIGNE_A_AJOUTER" >> FICHIER_A_MODIFIER
+			-Remplacer le contenu du fichier par une ligne
+				echo "LIGNE_A_AJOUTER" > FICHIER_A_MODIFIER
+	-Creer un alias
+		alias NOM_DE_L'ALIAS='COMMANDE_DE_L'ALIAS'
+
+	-Changer les entrees/sorties standard
+		
+
+
