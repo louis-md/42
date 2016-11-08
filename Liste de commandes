@@ -8,11 +8,12 @@ rm
 cat
 touch
 find
-head
-tail
 grep
 echo
+sed
 cat
+head
+tail
 less
 sort
 cut
